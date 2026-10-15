@@ -1,4 +1,4 @@
-Writing
+
 
 # Suvendu Kumar — Research Portfolio
 
