@@ -1,45 +1,37 @@
-# Suvendu Kumar — Portfolio
+Writing
 
-A static, single-page portfolio site (HTML/CSS/JS, no build step required).
+# Suvendu Kumar — Research Portfolio
 
-## Host it on GitHub Pages (free)
+A personal academic portfolio showcasing my research, publications, projects, and technical expertise in computational biology, bioinformatics, machine learning, and biomedical AI.
 
-1. Create a new GitHub repository — e.g. `suvendukumar.github.io` (use exactly
-   `<your-username>.github.io` if you want it at the root of your GitHub domain,
-   or any name like `portfolio` if you're fine with a `/portfolio` sub-path).
-2. Unzip this folder and upload **all three files** (`index.html`, `styles.css`,
-   `script.js`, `README.md`) to the root of that repository — either by dragging
-   them into the GitHub web UI ("Add file" → "Upload files") or via git:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial portfolio"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
-   git push -u origin main
-   ```
-3. In the repository, go to **Settings → Pages**.
-4. Under "Build and deployment", set **Source** to "Deploy from a branch",
-   branch `main`, folder `/ (root)`, then click **Save**.
-5. Wait a minute or two — your site will be live at:
-   - `https://<your-username>.github.io/` (if the repo is named `<your-username>.github.io`), or
-   - `https://<your-username>.github.io/<repo-name>/` (for any other repo name).
+**Website:** https://suvendu-kumar.github.io/
 
-## Editing content
+## About
 
-- All text lives directly in `index.html` — search for the section you want to
-  change (`<section id="overview">`, `<section id="publications">`, etc.).
-- Colors, fonts, and spacing are controlled by CSS variables at the top of
-  `styles.css` (the `:root` block) if you want to restyle without touching layout.
-- `script.js` only handles the mobile menu and the active-section highlight in
-  the sidebar — no build tools or dependencies needed.
+This repository contains the source code for my personal research website, built with HTML, CSS, and JavaScript. It presents my academic background, research interests, scientific contributions, professional experience, and selected projects.
 
-## Local preview
+## Technologies
 
-Just open `index.html` in a browser, or run a tiny local server from this folder:
+- HTML5
+- CSS3
+- JavaScript
+- GitHub Pages
 
-```bash
-python3 -m http.server 8000
-```
+## Repository Structure
 
-Then visit `http://localhost:8000`.
+- `index.html` — Website content and structure
+- `styles.css` — Styling and responsive layout
+- `script.js` — Navigation and interactive functionality
+
+## Research Interests
+
+- Computational Biology and Bioinformatics
+- Multimodal AI and Machine Learning
+- Molecular Representation Learning
+- Precision Oncology and Genomics
+- Biomedical Data Science
+- Deep Learning and Scientific Computing
+
+---
+
+© Suvendu Kumar
